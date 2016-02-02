@@ -35,4 +35,5 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'AFNetworking', '~> 2.6'
   s.dependency 'CocoaAsyncSocket', '~> 7.4.2'
+  s.compiler_flags = '-DNDEBUG=1'
 end
